@@ -8,7 +8,7 @@
 /*elementos base*/
 
 body {
-    background-image: url(../img/body-bg.jpg);
+    background-image: url(../img/nintendo/body-bg.png);
     background-size: cover;
     font-family: 'Press Start 2P', cursive;
 
@@ -16,12 +16,15 @@ body {
 
 /*cabeçalho*/
 
-header .container{
+header .container-header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 0px;
+    height: 80px;
+    padding: 20px;
+    background-color: #000000;
     
 }
 
@@ -29,10 +32,11 @@ header .logo{
     font-size: 30px;
     transition: .3s;
     cursor: pointer;
+    color: white;
 }
 
 header .logo:hover{
-    color: white;
+    color: gray;
 }
 
 header nav a {
@@ -40,9 +44,100 @@ header nav a {
     font-size: 13px;
     transition: .3s;
     cursor: pointer;
+    color: rgb(250, 2, 2);
 }
 
 header nav a:hover{
     color: white;
 }
 
+.noticia-principal{
+    font-size: 15px;
+    height: 400px;
+    background-image: url(../img/nintendo/noticia-bg.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.noticia-principal .titulo{
+    margin-top: 0;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.noticia-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 90px;
+    margin-left: 20px;
+}
+
+/*botao*/
+
+.botao .hidden {
+    display: none;
+}
+
+.botao button {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    border: none;
+    color: white;
+    padding: 15px;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+.botao button:hover {
+    background-color: white;
+    color: black;
+}
+
+/*carrosseis*/
+
+.carrosel-consoles, .carrosel-jogos{
+    margin-top: 30px;
+}
+
+.carrosel-consoles h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.carrosel-jogos h3 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/*novidades*/
+
+.novidades{
+    margin-top: 20px;
+}
+
+.novidades h3{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.novidades video{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+
+/*voltar ao topo*/
+
+#voltar-topo{
+    text-decoration: none;
+    color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
