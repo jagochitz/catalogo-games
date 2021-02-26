@@ -141,3 +141,29 @@ header nav a:hover{
     margin-bottom: 20px;
     cursor: pointer;
 }
+
+/*rodape*/
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.rodape p{
+    margin-right: 30px;
+}
+
+.rodape a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.rodape i{
+    font-size: 40px;
+}
