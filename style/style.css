@@ -128,6 +128,7 @@ header nav a:hover{
 .novidades video{
     display: flex;
     margin: 0 auto;
+    margin-bottom: 20px;
     width: 70%;
 }
 
@@ -136,7 +137,7 @@ header nav a:hover{
 #voltar-topo{
     text-decoration: none;
     color: red;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-bottom: 20px;
     cursor: pointer;
